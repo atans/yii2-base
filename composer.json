@@ -1,0 +1,19 @@
+{
+    "name": "atans/base",
+    "description": "atans base extension",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {"name": "Atans"]
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "atans\\base\\": ""
+        }
+    }
+}
